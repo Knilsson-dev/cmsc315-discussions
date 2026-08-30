@@ -58,6 +58,7 @@ def search_value(lst, value):
     - Return -1 if the value is not found.
     - Add comments explaining why this is a linear search and why it scans sequentially.
     """
+    #for loop to walk through the list and verify index is withing range, followed by an if statement to very the number at the index and return the now found value
     for index in range(len(lst)):
         if lst[index] == value:
             return index
